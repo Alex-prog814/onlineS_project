@@ -91,3 +91,16 @@ footer {
 }
 
 /* end modal styles */
+
+/* pagination styles */
+
+.page-item > a {
+    color: black;
+    border: none;
+}
+
+.active-page-link {
+    background-color: #212529 !important;
+}
+
+/* end pagination styles */

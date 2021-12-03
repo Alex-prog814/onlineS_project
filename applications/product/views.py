@@ -5,6 +5,7 @@ from applications.product.models import Product, Category
 
 
 class ProductListView(ListView):
+    paginate_by = 6
     model = Product
     template_name = 'home_page.html'
     context_object_name = 'products'
